@@ -188,7 +188,7 @@ export const api = {
   // Enquiries
   submitEnquiry: async (enquiryData) => {
     try {
-      const response = await fetch('http://localhost:5000/api/submit-enquiry', {
+      const response = await fetch('https://resort-website-backend.onrender.com/api/submit-enquiry', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
